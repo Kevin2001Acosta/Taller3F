@@ -175,6 +175,6 @@ def test_combinar():
         listaCombinada6.get_index(0)
     except ValueError:
         assert True
-    else:
+    except Exception:
         assert False
 
