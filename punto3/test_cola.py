@@ -21,13 +21,13 @@ def test_enqueue_and_dequeue():
         assert True
     else:
         assert False
-    assert cola.dequeue == 1
-    assert cola.dequeue == 2
-    assert cola.dequeue == 3
-    assert cola.dequeue == 4
-    assert cola.dequeue == 5
+    assert cola.dequeue() == 1
+    assert cola.dequeue() == 2
+    assert cola.dequeue() == 3
+    assert cola.dequeue() == 4
+    assert cola.dequeue() == 5
     try:
-        cola.dequeue
+        cola.dequeue()
     except NotImplementedError:  # La cola esta vacia
         assert True
     else:
