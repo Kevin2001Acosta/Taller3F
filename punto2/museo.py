@@ -2,7 +2,7 @@
 Autores: Kevin Acosta
          Ronan Moreno
          Rodolfo Bolaños
-Fecha: 27/06/2023
+fecha: 27/06/2023
 Descripción: Clase museo y sus metodos
 """
 
@@ -27,18 +27,40 @@ class Museo:
         obra = Obra(nombre, 1)
         self.inventario.insert(obra)
 
+    # def venderReplica(self, nombre):
+    #     current = self.inventario.head
+    #     while current is not None:
+    #         if current.value.nombre == nombre:
+    #             if current.value.cantidad > 0:
+    #                 current.value.cantidad -= 1
+    #                 if current.value.cantidad == 0:
+    #                     self.inventario.delete(current.value)
+    #                 return
+    #             else:
+    #                 print("No hay obras disponibles con el nombre especificado.")
+    #                 return
+    #         current = current.ptrNext
     def venderReplica(self, nombre):
         current = self.inventario.head
+        previous = None
+
         while current is not None:
             if current.value.nombre == nombre:
                 if current.value.cantidad > 0:
                     current.value.cantidad -= 1
+
                     if current.value.cantidad == 0:
-                        self.inventario.delete(current.value)
+                        if previous is None:
+                            self.inventario.head = current.ptrNext
+                        else:
+                            previous.ptrNext = current.ptrNext
+
                     return
                 else:
                     print("No hay obras disponibles con el nombre especificado.")
                     return
+
+            previous = current
             current = current.ptrNext
 
     def listarReplicas(self):
