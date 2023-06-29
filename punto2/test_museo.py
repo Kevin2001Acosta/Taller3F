@@ -1,8 +1,8 @@
 """
-Autores: Kevin Acosta
+Autores:Kevin Acosta
          Ronan Moreno
          Rodolfo Bolaños
-Fecha: 27/06/2023
+fecha: 27/06/2023
 Descripción: Archivo de test para hacer las pruebas del inventario del museo
 """
 
@@ -42,12 +42,11 @@ def test_venderReplica():
     # with pytest.raises(ReferenceError):
     #     museo.inventario.getIndex(0)
 
-    # try:
-    #     museo.venderReplica("Obra inexistente")
-    # except ReferenceError:
-    #     assert True
-    # except Exception:
-    #     assert False
+    # museo.venderReplica("Persistencia de la memoria")
+    # with pytest.raises(ReferenceError):
+    #     museo.inventario.getIndex(0)
+
+    museo.venderReplica("Obra inexistente")
 
 
 def test_listarReplicas(capsys):

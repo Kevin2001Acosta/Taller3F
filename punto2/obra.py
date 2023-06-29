@@ -2,7 +2,7 @@
 Autores: Kevin Acosta
          Ronan Moreno
          Rodolfo Bolaños
-Fecha: 27/06/2023
+fecha: 27/06/2023
 Descripción: Clase nodo , clase obra y la clase de lista enlazada para las obras del museo
 """
 
@@ -44,8 +44,8 @@ class LinkedListObra:
             cnt += 1
 
         if current is None:
-            # raise OverflowError
-            print("no hay existencia de la obra ")
+            raise Exception("la obra no tiene inventario")
+            # print("no hay existencia de la obra ")
 
         return current.value
 
