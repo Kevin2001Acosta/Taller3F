@@ -2,7 +2,7 @@
 Autores: Kevin Acosta
          Ronan Moreno
          Rodolfo Bolaños
-fecha: 28/06/2023
+Fecha: 28/06/2023
 Descripción: Clase que representa una cola
 """
 import numpy as np

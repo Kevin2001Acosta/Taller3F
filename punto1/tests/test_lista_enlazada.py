@@ -1,6 +1,8 @@
 """
-Autor:kevin Andres Acosta Rengifo
-fecha: 26/06/2023
+Autores: Kevin Andres Acosta Rengifo
+         Ronan Moreno Castro
+         Rodolfo Bolaños
+Fecha: 26/06/2023
 Descripción: Archivo con los test necesarios para  saber
              si el codigo esta funcionando correctamente
 """

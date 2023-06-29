@@ -2,7 +2,7 @@
 Autores: Kevin Acosta
          Ronan Moreno
          Rodolfo Bolaños
-fecha: 28/06/2023
+Fecha: 28/06/2023
 Descripción: archivo de tests para la clase PilaConCola
 en esta implementaremos funciones inddividuales que se comportan
 """

@@ -2,7 +2,7 @@
 Autores: Kevin Acosta
          Ronan Moreno
          Rodolfo Bolaños
-fecha: 27/06/2023
+Fecha: 27/06/2023
 Descripción: Clase nodo , clase obra y la clase de lista enlazada para las obras del museo
 """
 

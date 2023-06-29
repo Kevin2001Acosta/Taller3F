@@ -1,7 +1,9 @@
 """
-Autor: Kevin Andres Acosta Rengifo
-fecha: 26/06/2023
-Descripción: crear una funcion que realize la combinacion de dos listas enlazadas
+Autores: Kevin Andres Acosta Rengifo
+         Ronan Moreno Castro   
+         Rodolfo Bolaños
+Fecha: 26/06/2023
+Descripción: Crear una funcion que realice la combinacion de dos listas enlazadas
 ordenadas y devuelve una lista enlazada ordenada
 """
 from lista_enlazada import ListaEnlazada

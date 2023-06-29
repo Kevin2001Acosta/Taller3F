@@ -1,8 +1,8 @@
 """
-Autores:Kevin Acosta
+Autores: Kevin Acosta
          Ronan Moreno
          Rodolfo Bolaños
-fecha: 27/06/2023
+Fecha: 27/06/2023
 Descripción: Archivo de test para hacer las pruebas del inventario del museo
 """
 
