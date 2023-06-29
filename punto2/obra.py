@@ -1,5 +1,7 @@
 """
-Autor: Rodolfo Bolanos
+Autores: Kevin Acosta
+         Ronan Moreno
+         Rodolfo Bolaños
 fecha: 27/06/2023
 Descripción: Clase nodo , clase obra y la clase de lista enlazada para las obras del museo
 """
@@ -42,7 +44,8 @@ class LinkedListObra:
             cnt += 1
 
         if current is None:
-            raise OverflowError
+            # raise OverflowError
+            print("no hay existencia de la obra ")
 
         return current.value
 

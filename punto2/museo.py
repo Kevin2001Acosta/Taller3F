@@ -1,5 +1,7 @@
 """
-Autor: Rodolfo Bolanos
+Autores: Kevin Acosta
+         Ronan Moreno
+         Rodolfo Bolaños
 fecha: 27/06/2023
 Descripción: Clase museo y sus metodos
 """
@@ -8,6 +10,7 @@ Descripción: Clase museo y sus metodos
 from obra import Node
 from obra import Obra
 from obra import LinkedListObra
+
 
 class Museo:
     def __init__(self):
